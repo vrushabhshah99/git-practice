@@ -1,1 +1,16 @@
-hi..naam to suna hoga....!
+sudo yum install git       - install git
+git -v
+git config --global user.name vrushabhshah     -for who is applied file in github
+git config --global user.email vru@.com
+git config --list         - for info
+mkdir myapp
+cd myapp/
+git init                  -to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+nano my.txt   
+git add my.txt            -adds a change in the working directory to the staging area.
+git commit -m "i am git"  -used to save your changes to the local repository
+git status
+git remote add origin https://github.com/vrushabhshah99/git-practice.git  -used to add a remote repository to your local Git repository.
+git push origin master  -  explicitly pushes the local master branch to the remote repository named origin
+
+#for password generate token
